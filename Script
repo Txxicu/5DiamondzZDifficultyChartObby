@@ -1,0 +1,24 @@
+local Library = loadstring(game:HttpGet("https://raw.githubusercontent.com/Robojini/Tuturial_UI_Library/main/UI_Template_1"))()
+
+local Window = Library.CreateLib("5DiamondzZ Difficulty Chart Obby | Txxicu Scripts", "RJTheme3")
+
+local Tab = Window:NewTab("Scripts")
+
+local Section = Tab:NewSection("5DiamondzZ Difficulty Chart Obby")
+
+Section:NewButton("UFO #1", "ButtonInfo", function()
+    print("Clicked")
+game:GetService('Players').LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(2500.77612, 2010.01453, -6456.55225, 1, 0, 0, 0, 1, 0, 0, 0, 1)
+end)
+
+Section:NewButton("UFO #2", "ButtonInfo", function()
+    print("Clicked")
+game:GetService('Players').LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(2143.04102, 1017.37048, -5807.13379, 1, 0, 0, 0, 1, 0, 0, 0, 1)
+end)
+
+local Section = Tab:NewSection("Event: Alien")
+
+Section:NewButton ("Codes", "ButtonInfo", function()
+    print("Clicked")
+game:GetService('Players').LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(-335.834808, 31.9721317, -301.37149, 0.965929627, -0, -0.258804798, 0, 1, -0, 0.258804798, 0, 0.965929627)
+end)
